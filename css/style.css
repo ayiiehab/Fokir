@@ -1,0 +1,340 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+header{
+    
+    background-color: aquamarine;
+    background-image: url(../images/slider-01.jpg);
+    background-size: 100% 100%;
+}
+
+header .layer  {
+    background-color: rgba(0,0,0,0.7);
+}
+nav{
+    background-color: rgba(0,0,0,0.3);
+
+}
+.header-content h2{
+    font-size: 70px;
+    color: #ff305b;
+}
+nav .nav-menu ul li a{
+    color: white;
+    text-decoration: none;
+} 
+nav .nav-menu ul li a:hover{
+    color: #ff305b;
+}
+.logo h1{
+    color: #ff305b;
+}
+
+
+.bder{
+    position: relative;
+    top:3%;
+    left:-4%;
+    border: 10px solid #555555;
+    width: 80%;
+    height: 60%;
+    border-radius: 5px;
+    z-index: 1;
+   
+}
+
+.partOne .imgPro{
+    position: absolute;
+    top: 0%;
+    z-index: 1;
+
+}
+.partOne .image img{
+    width: 90%;
+
+}
+.partOne .image{
+    position: relative;
+    overflow: hidden;
+    
+}
+.partOne .layer{
+    width: 80%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    position: absolute;
+    top:50%;
+    transition: all 1s ;
+    opacity: 0;
+}
+.container .image:hover .layer{
+    top: 0%;
+    opacity: 1;
+}
+.social-icon ul li i{
+    color: white;
+}
+.partOne .img_content  h3 span{
+    color:  #ff305b ;
+}
+
+.partOne .img_content .infoprofile ul li span{
+    color: black;
+    font-weight: 700;
+}
+.img_content .infoprofile ul li{
+    float:left; 
+    width:50%;
+    margin-bottom: 10px
+
+}
+.img_content .btn{
+    width: 30%;
+    height: 40px;
+    background-color: #ff305b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px
+}
+.partTwo {
+    background-color: #f1f1f1;
+}
+.partTwo .title h2{
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.partTwo .lines ,.partThree .lines ,.partFive .lines ,.partSix .lines ,.contact .lines  {
+    position: relative;
+    width: 100%;
+    height: 20px;
+}
+
+.partTwo .lines .lin1 , .partThree .lines .lin1 ,.partFive .lines .lin1 ,.partSix .lines .lin1 , .contact .lines .lin1{
+
+   background-color: #ff305b;
+   height: 2px;
+   width: 8%;
+   position: absolute;
+   top:-40%;
+   left:46%
+  
+}
+.partTwo .lines .lin2 ,.partThree .lines .lin2 ,.partFive .lines .lin2  ,.partSix .lines .lin2 ,.contact .lines .lin2 {
+
+    background-color: #ff305b;
+    height: 3px;
+    width: 15%;
+    position: absolute;
+    top:-22%;
+    left:43%
+   
+ }
+ .partTwo .lines .lin3 ,.partThree .lines .lin3 ,.partFive .lines .lin3 ,.partSix .lines .lin3,.contact .lines .lin3 {
+
+    background-color: #ff305b;
+    height: 2px;
+    width: 8%;
+    position: absolute;
+    top:0%;
+    left:46%
+ }
+ .partThree .lines .lin1{
+     top:-22%;
+ }
+ .partThree .lines .lin2{
+     top:6%;
+ }
+ .partThree .lines .lin3{
+     top:34%;
+     height: 3px;
+ }
+ .partTwo .services .service{
+     text-align: center;
+     transition: all 1.5s ;
+ }
+ .partTwo .services .service i {
+     font-size: 40px;
+     color: #ff305b;
+     padding-bottom: 15px;
+ }
+ .partTwo .row{
+    position: relative;
+    top:25%
+}
+.partTwo .row .service:hover{
+    background-color:white;
+}
+.partThree .products{
+    margin-left: 190px;
+}
+
+.partThree .nav-menu ul li a {
+    color: black;
+    text-decoration:none;
+
+}
+.partThree .nav-menu ul li a:hover{
+    color: #ff305b ;
+}
+.partFour{
+    height: 250px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.partFour .item i{
+    font-size: 30px;
+    color: #ff305b ;
+}
+.partFour .item span{
+    font-weight: 700;
+    font-size: 20px;
+}
+.partFive{
+    height: 550px;
+   
+}
+.partFive .lines .lin1{
+top:-25%
+}
+.partFive .lines .lin2{
+    top:0%
+}
+.partFive .lines .lin3{
+    top:25%
+}
+.partFive .card{
+    width: 60%;
+    height: 45%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    background-color: #f1f1f1;
+
+    
+}
+.partFive .card .layer {
+    background-color: #ff305b;
+    transform: rotate(-55deg);
+    
+    width: 40%;
+    height: 70%;
+    position: absolute;
+    left:-18%;
+    top:-70px;
+
+}
+
+.partFive .card .card-profile{
+    border-radius: 50%;
+    width: 15%;
+    z-index: 1;
+    position: relative;
+    top:15%;
+    left: 4%;
+}
+.partFive .card .card-content{
+    position: absolute;
+    left: 20%;
+    top:5%;
+}
+.partFive .card-content .loc{
+    color: #777777;
+
+}
+.partFive .card-content p{
+    color: #636363;
+
+
+}
+.partFive .card-content .loc i{
+    font-size: 15px;
+}
+.partFive .card-content .stars{
+    color: rgb(241, 195, 13);
+}
+.partSix{
+    background-color: #f1f1f1;
+
+}
+.partSix .lines .lin1{
+    top:-25%
+}
+.partSix .lines .lin2{
+    top:0%;
+    height:2px
+}.partSix .lines .lin3{
+    top:25%
+}
+.partSix .blog{
+    background-color: white;
+    padding: 10px;
+}
+.partSix .blog img , .partSix .blog video{
+    width: 100%;
+}
+.partSix .blog video{
+    height: 57%;
+}
+.partSix .blog p{
+    color: #777777;
+    margin: 10px;
+
+}
+.partSix .blog h3:hover , .partSix .blog .more:hover{
+   color: #ff305b;
+ 
+}
+.contact .lines .lin1{
+    top:-25%
+    }
+.contact .lines .lin2{
+        top:0%;
+        height: 2px;
+    }
+.contact .lines .lin3{
+        top:25%
+    }
+
+.contact .contact-info{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+.contact input , .contact textarea{
+   padding: 8px;
+   margin: 10px;
+   border-radius: 5px;
+   border: 1px solid #777777;
+   ;
+}
+.contact input:hover ,.contact textarea:hover{
+    border-color:  #ff305b;
+}
+.contact form button{
+    background-color: #ff305b;
+    color: white;
+    border: none;
+    height: 20%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px;
+}
+footer{
+    height: 150px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+footer .social-icon i:hover{
+  color: #ff305b;
+}
+footer span{
+    color: #ff305b ;
+}
